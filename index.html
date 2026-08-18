@@ -1,90 +1,167 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>هدية لزمزم ❤️</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #ffd6e7, #fff4f8);
-    color: #5a263b;
+
+body{
+margin:0;
+padding:20px;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#ffd6e7,#fff5f9);
+text-align:center;
+color:#5a263b;
 }
 
-.container {
-    width: 90%;
-    max-width: 600px;
-    margin: 25px auto;
+.box{
+max-width:700px;
+margin:auto;
+background:#fff;
+padding:25px;
+border-radius:25px;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
 }
 
-.card {
-    background: white;
-    padding: 25px;
-    border-radius: 25px;
-    box-shadow: 0 8px 30px rgba(0,0,0,.12);
+input{
+width:90%;
+padding:12px;
+font-size:18px;
+border-radius:15px;
+border:1px solid #ddd;
+margin:10px 0;
+text-align:center;
 }
 
-h1, h2 {
-    text-align: center;
-    color: #d94f7d;
+button{
+padding:12px 25px;
+font-size:18px;
+border:none;
+border-radius:15px;
+background:#d94f7d;
+color:white;
+cursor:pointer;
 }
 
-.heart {
-    text-align: center;
-    font-size: 55px;
+#gift{
+display:none;
 }
 
-.message {
-    font-size: 17px;
-    line-height: 2;
+#error{
+display:none;
+color:red;
+margin-top:10px;
 }
 
-audio {
-    width: 100%;
-    margin: 15px 0 25px;
+img{
+width:100%;
+margin-top:15px;
+border-radius:15px;
 }
 
-img {
-    width: 100%;
-    display: block;
-    margin: 15px 0;
-    border-radius: 18px;
+audio{
+width:100%;
+margin:20px 0;
 }
 
-.footer {
-    text-align: center;
-    margin-top: 25px;
+.message{
+line-height:2;
+font-size:18px;
+text-align:right;
 }
+
 </style>
+
 </head>
 
 <body>
 
-<div class="container">
-<div class="card">
+<div class="box">
 
-<div class="heart">❤️</div>
+<div id="login">
 
-<h1>هدية لزمزم 🎁</h1>
+<h1>🎁 هدية لزمزم ❤️</h1>
+
+<p>اكتبي الباسورد لفتح الهدية 🔐</p>
+
+<input
+type="password"
+id="password"
+placeholder="الباسورد">
+
+<br>
+
+<button onclick="openGift()">
+افتحي الهدية ❤️
+</button>
+
+<p id="error">
+الباسورد غير صحيح
+</p>
+
+</div>
+
+
+<div id="gift">
+
+<h1>❤️ زمزم ❤️</h1>
 
 <div class="message">
 
-<p>زمزم ❤️</p>
-
 <p>
-حبيت أعملك الهدية دي عشان تفضل ذكرى حلوة عندك،
-وتفكرك إنك شخص غالي ومميز جدًا.
+زمزم ❤️
 </p>
 
 <p>
-وجودك في حياتي له مكان خاص عندي،
-وأتمنى دايمًا أشوفك مبسوطة وفرحانة. 🌷
+مش عارف أبدأ كلامي منين، بس عارف إن في كلام كتير نفسي أقولهولك من زمان.
 </p>
 
 <p>
-يمكن الهدية بسيطة، لكن معمولة بكل حب من قلبي. ❤️
+وجودك في حياتي مش حاجة عادية بالنسبة لي، ويمكن من أجمل الحاجات اللي حصلتلي إني عرفتك وبقيتي جزء من يومي وتفكيري.
+</p>
+
+<p>
+في ناس بنقابلها وتعدي، وفي ناس وجودها بيفرق فعلًا، وإنتِ من الناس اللي وجودها له معنى خاص عندي.
+</p>
+
+<p>
+يمكن مش بعرف أعبّر دايمًا عن اللي جوايا، لكن أتمنى تعرفي إنك شخص غالي جدًا عندي.
+</p>
+
+<p>
+كل ضحكة وكل موقف وكل ذكرى بينا ليها مكان مميز في قلبي.
+</p>
+
+<p>
+إنتِ شخصية جميلة بطيبتك وقلبك وروحك، وعشان كده الهدية دي معمولة بكل حب.
+</p>
+
+<p>
+مش عشان قيمتها كبيرة، لكن عشان تحمل جزء من المشاعر اللي نفسي توصلك.
+</p>
+
+<p>
+أتمنى أشوفك دايمًا سعيدة ومبسوطة، وربنا يحققلك كل حاجة نفسك فيها.
+</p>
+
+<p>
+ولو في يوم حسيتِ إن الدنيا صعبة، افتكري إنك شخص مميز وتستاهلي كل خير.
+</p>
+
+<p>
+شكرًا على وجودك، وشكرًا على كل ذكرى حلوة بينا.
+</p>
+
+<p>
+وفي النهاية...
+</p>
+
+<p>
+يمكن الكلام يخلص، لكن مكانتك عندي عمرها ما هتقل. ❤️
 </p>
 
 </div>
@@ -92,7 +169,7 @@ img {
 <h2>🎵 أغنية ليكي</h2>
 
 <audio controls>
-    <source src="song.mp3" type="audio/mpeg">
+<source src="song.mp3" type="audio/mpeg">
 </audio>
 
 <h2>📸 صور</h2>
@@ -111,12 +188,36 @@ img {
 <img src="photo12.jpg">
 <img src="photo13.jpg">
 
-<div class="footer">
-❤️ أتمنى الهدية تعجبك ❤️
+<p style="margin-top:20px;font-size:22px;">
+❤️❤️❤️
+</p>
+
 </div>
 
 </div>
-</div>
+
+<script>
+
+function openGift(){
+
+let password =
+document.getElementById("password").value;
+
+if(password === "7/7/2009"){
+
+document.getElementById("login").style.display = "none";
+
+document.getElementById("gift").style.display = "block";
+
+}else{
+
+document.getElementById("error").style.display = "block";
+
+}
+
+}
+
+</script>
 
 </body>
 </html>
