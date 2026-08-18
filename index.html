@@ -1,109 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>هدية لزمزم ❤️</title>
 
 <style>
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
-    min-height: 100vh;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #ffd6e7, #fff1f7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #5a2940;
+    background: linear-gradient(135deg, #ffd6e7, #fff4f8);
+    color: #5a263b;
 }
 
 .container {
     width: 90%;
-    max-width: 500px;
-    text-align: center;
-    background: rgba(255,255,255,0.88);
-    padding: 30px 22px;
+    max-width: 600px;
+    margin: 25px auto;
+}
+
+.card {
+    background: white;
+    padding: 25px;
     border-radius: 25px;
-    box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+    box-shadow: 0 8px 30px rgba(0,0,0,.12);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #d94f7d;
 }
 
 .heart {
-    font-size: 55px;
-    animation: beat 1.3s infinite;
-}
-
-@keyframes beat {
-    50% {
-        transform: scale(1.15);
-    }
-}
-
-h1 {
-    margin-bottom: 10px;
-}
-
-p {
-    line-height: 1.9;
-}
-
-input {
-    width: 100%;
-    padding: 14px;
-    border: 1px solid #e8a8bf;
-    border-radius: 15px;
     text-align: center;
-    font-size: 18px;
-    outline: none;
-    margin: 15px 0 10px;
-}
-
-button {
-    border: none;
-    padding: 13px 28px;
-    border-radius: 20px;
-    background: #d94f7d;
-    color: white;
-    font-size: 17px;
-    cursor: pointer;
-}
-
-#error {
-    color: #c62828;
-    display: none;
-    margin-top: 10px;
-}
-
-#gift {
-    display: none;
+    font-size: 55px;
 }
 
 .message {
-    text-align: right;
-    background: #fff7fa;
-    padding: 20px;
-    border-radius: 20px;
-    margin-top: 20px;
+    font-size: 17px;
+    line-height: 2;
 }
 
-.photo-box {
-    margin-top: 25px;
-}
-
-.photo-box img {
+audio {
     width: 100%;
-    border-radius: 18px;
-    margin-top: 12px;
+    margin: 15px 0 25px;
 }
 
-.small {
-    font-size: 14px;
-    opacity: 0.7;
+img {
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+    border-radius: 18px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 25px;
 }
 </style>
 </head>
@@ -111,72 +63,60 @@ button {
 <body>
 
 <div class="container">
+<div class="card">
 
-    <div id="login">
+<div class="heart">❤️</div>
 
-        <div class="heart">❤️</div>
+<h1>هدية لزمزم 🎁</h1>
 
-        <h1>هدية صغيرة لزمزم 🎁</h1>
+<div class="message">
 
-        <p>
-            في حاجة بسيطة مستنياكي...
-            <br>
-            بس الأول اكتبي الباسورد 🔐
-        </p>
+<p>زمزم ❤️</p>
 
-        <input
-            type="password"
-            id="password"
-            placeholder="اكتبي الباسورد هنا"
-        >
+<p>
+حبيت أعملك الهدية دي عشان تفضل ذكرى حلوة عندك،
+وتفكرك إنك شخص غالي ومميز جدًا.
+</p>
 
-        <button onclick="openGift()">
-            افتحي هديتك ❤️
-        </button>
+<p>
+وجودك في حياتي له مكان خاص عندي،
+وأتمنى دايمًا أشوفك مبسوطة وفرحانة. 🌷
+</p>
 
-        <div id="error">
-            الباسورد مش صح، جربي تاني ❤️
-        </div>
+<p>
+يمكن الهدية بسيطة، لكن معمولة بكل حب من قلبي. ❤️
+</p>
 
-    </div>
+</div>
 
-    <div id="gift">
+<h2>🎵 أغنية ليكي</h2>
 
-        <div class="heart">💗</div>
-        
-        <h1>زمزم ❤️</h1>
+<audio controls>
+    <source src="song.mp3" type="audio/mpeg">
+</audio>
 
-        <div class="message">
+<h2>📸 صور</h2>
 
-            <p>
-                زمزم ❤️
-            </p>
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+<img src="photo4.jpg">
+<img src="photo5.jpg">
+<img src="photo6.jpg">
+<img src="photo7.jpg">
+<img src="photo8.jpg">
+<img src="photo9.jpg">
+<img src="photo10.jpg">
+<img src="photo11.jpg">
+<img src="photo12.jpg">
+<img src="photo13.jpg">
 
-            <p>
-                مش عارف أبدأ كلامي منين، بس عارف حاجة واحدة...
-                إن وجودك في حياتي من أجمل الحاجات اللي حصلتلي.
-            </p>
+<div class="footer">
+❤️ أتمنى الهدية تعجبك ❤️
+</div>
 
-            <p>
-                إنتِ مش مجرد صاحبة بالنسبالي،
-                إنتِ أخت وصاحبة وحبيبة،
-                وكل مكانة فيهم ليها معنى خاص عندي. ❤️
-            </p>
+</div>
+</div>
 
-            <p>
-                يمكن مش دايمًا بعرف أقول اللي جوايا،
-                بس أتمنى تعرفي إنك غالية عندي بجد،
-                وإن ضحكتك ووجودك وكلامك ليهم مكان كبير في قلبي.
-            </p>
-
-            <p>
-                الهدية دي بسيطة جدًا،
-                بس حبيت أعمل حاجة صغيرة تفكرك
-                إن في حد شايفك شخص مميز
-                ومش عايز يخسر وجودك في حياته. 🌷
-            </p>
-
-            <p>
-                أتمنى أيامك كلها تبقى حلوة،
-                وتفضلي دايمًا مبسوطة،
-                وربنا يحققلك كل حاجة نفسك فيها
+</body>
+</html>
